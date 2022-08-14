@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+
+.vertical-spaced{
+    margin-top: 10px;
+}
+
+.super{
+    font-weight: bold;
+}
+
+.section{
+    margin-top: 200px;
+}
+
+.sub-section{
+    margin-top: 100px;
+}
+
+.description-about-me{
+    margin-top: 30px;
+    margin-left: 5rem;
+}
+
+.footer-custom{
+    background-color: #242424;
+    color: #b1b1b1;
+}
+
+.grown-up:hover{
+    transform: scale(1.03);
+    transition: transform 300ms;
+}
+
+.higher{
+    font-size:70px;
+}
+
+.f {
+  position: fixed;
+  top: 5px;
+  right: 10px;
+  font-family: 'Arial';
+  font-size: 0.8em;
+  color: #e3e3e3;
+}
+.f a {
+  color: #000;
+}
+.Project {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+}
+.Project:hover .imgMasked {
+  clip-path: circle(150px at center);
+}
+.Project:hover .Project-hail {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+}
+.Project:hover .Project-hail2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  border: 120px solid #fff4e6;
+  opacity: 0;
+}
+.Project:hover .Project-name {
+  left: 200%;
+  opacity: 1;
+}
+.Project:hover .Project-name:before {
+  width: 100%;
+}
+.Project-hail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #b1b1b1;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  transition: 0.5s;
+  opacity: 0.2;
+}
+.Project-hail2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 0;
+  transition: 0.7s;
+  border: 32px solid #b1b1b1;
+  border-radius: 30px;
+  pointer-events: none;
+}
+.imgMasked {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  height: 300px;
+  clip-path: circle(30px at center);
+  transition: 0.5s;
+  pointer-events: none;
+}
+.Project-name {
+  position: absolute;
+  max-width: 600px;
+  min-width: 150px;
+  left: 0;
+  top: 150%;
+  pointer-events: none;
+  transition: 0.5s;
+  color: rgb(210, 210, 210);
+  padding: 3px 6px;
+  z-index: 2;
+  opacity: 0;
+}
+.Project-name:before {
+  content: '';
+  width: 0;
+  height: 100%;
+  background-color: #242424;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+  z-index: -1;
+}
