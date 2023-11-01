@@ -57,26 +57,26 @@
   width: 100px;
   height: 100px;
 }
-.Project:hover .imgMasked {
+.Project .imgMasked {
   clip-path: circle(150px at center);
 }
-.Project:hover .Project-hail {
+.Project .Project-hail {
   width: 300px;
   height: 300px;
   border-radius: 300px;
 }
-.Project:hover .Project-hail2 {
+.Project .Project-hail2 {
   width: 300px;
   height: 300px;
   border-radius: 300px;
   border: 120px solid #fff4e6;
   opacity: 0;
 }
-.Project:hover .Project-name {
+.Project .Project-name {
   left: 200%;
   opacity: 1;
 }
-.Project:hover .Project-name:before {
+.Project .Project-name:before {
   width: 100%;
 }
 .Project-hail {
