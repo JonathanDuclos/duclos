@@ -1,223 +1,146 @@
 <!doctype html>
-<html>
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="./styles.css">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/c8f4196599.js" crossorigin="anonymous">
         
     </script>
     <title>Dev. Duclos!</title>
 </head>
 <body>
-    <div class="relative">
-        <div class="flex w-full justify-between py-4 shadow-md">
-          <div class="mx-4">
-            <span class="font-mono font-semibold">Dev. Duclos</span>
-          </div>
-          <div class="mx-4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m6.115 5.19.319 1.913A6 6 0 0 0 8.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 0 0 2.288-4.042 1.087 1.087 0 0 0-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 0 1-.98-.314l-.295-.295a1.125 1.125 0 0 1 0-1.591l.13-.132a1.125 1.125 0 0 1 1.3-.21l.603.302a.809.809 0 0 0 1.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 0 0 1.528-1.732l.146-.292M6.115 5.19A9 9 0 1 0 17.18 4.64M6.115 5.19A8.965 8.965 0 0 1 12 3c1.929 0 3.716.607 5.18 1.64" />
-            </svg>
-          </div>
-        </div>
-        <div class="h-full py-10">
-          <div class="flex h-1/2 w-full justify-center">
-            <img class="h-1/2 w-1/2 rounded-full" src="https://duclos.vercel.app/duclos.png" alt="The Amazing Duclos" />
-          </div>
-          <div class="flex h-1/2">
-            <div class="block items-center p-4">
-              <div class="flex justify-center my-5">
-                <code class="text-2xl font-bold"> <> </code>
-                <span class="text-2xl"> Jonathan Duclos </span>
-                <code class="text-2xl font-bold"> <&#47;> </code>
-              </div>
-              <div class="my-5 block">
-                <div>
-                  <span class="text-xl font-semibold">The mission is to bring</span>
-                </div>
-                <div>
-                  <span class="text-4xl font-semibold"> Excellence. </span>
-                </div>
-              </div>
-              <div class="my-5">
-                <div class="text-justify">
-                  <span> An innate passion for technology, an unstoppable force in search of new things, because I know that I don't "write code or create websites", I develop ideas! </span>
-                </div>
-              </div>
-              <div class="my-5">
-                <div class="block">
-                  <div class="flex text-justify">
-                    <span class="">"The people who are crazy enough to think they can change the world are the ones who do"</span>
-                  </div>
-                  <div class="flex justify-end">
-                    <span class="text-slate-500">- Steve Jobs</span>
-                  </div>
-                </div>
-              </div>
+    <div class="container">
+      <!-- Top Bar -->
+       <div class="row">
+        <div class="col mt-2">
+          <div class="d-flex justify-content-around p-2">
+            <div>
+              <span class="roboto-mono">Dev. Duclos!</span>
+            </div>
+            <div>
+              <i class="fa-brands fa-github fa-xl"></i>
             </div>
           </div>
         </div>
-        <div class="h-full py-10">
-          <div class="block p-5">
+       </div>
+      <!-- Top Bar End-->
+
+      <!-- Me -->
+       <div class="row mt-2">
+        <div class="col">
+          <div class="d-flex justify-content-center p-2">
+            <div>
+              <img class="rounded-circle mx-auto d-block" src="./duclos.png" alt="me" srcset="" height="200px" width="200px">
+              <hr>
+              <div class="d-flex justify-content-center p-2">
+                <span class="text-center roboto-mono">Jonathan Duclos</span>
+              </div>
+              <figure class="text-center">
+                <blockquote class="blockquote roboto-mono fs-6 fw-light lh-1">
+                  <p>"The people who are crazy enough to think they can change the world are the ones who do".</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Steve Jobs</cite>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+       </div>
+      <!-- Me End -->
+      <!-- Knowlodge columns -->
+       <div class="row ">
+          <div class="col d-flex justify-content-around p-4">
             <div class="block">
-              <code class="text-2xl font-bold"> <> </code>
-              <span class="text-2xl"> Technologies! </span>
-              <code class="text-2xl font-bold"> <&#47;> </code>
+              <div>
+                <span class="fw-bold roboto-mono">Web Designer</span>
+              </div>
+              <div class="fw-light fs-6 text-justify" style="text-align: justify;"> A web designer creates the layout and design of a website. In short, they make a site look good. Web designers use design programs to create visual elements like buttons and scroll bars. They typically have expertise in user interface (UI) and user experience (UX), which means they know how to strategically design a site that’s intuitive and easy for visitors to navigate. If your interest is piqued, let’s dig into this career and see what it takes to become a successful web designer.</div>
+              <div class="text-center pt-4 fa-xl">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-bootstrap"></i>
+                <i class="fa-brands fa-angular"></i>
+              </div>
             </div>
           </div>
-          <div class="p-5 flex text-justify">
-            <span class="text-slate-500">These are just some of the technologies or languages I use or master. Learning is a constant! Visit my Github to see more.</span>
-          </div>
-          <div class="w-full gap-3 flex p-5">
-            <div class="html5 w-8 h-8"></div>
-            <div class="css w-8 h-8"></div>
-            <div class="javascript w-8 h-8"></div>
-            <div class="angular w-8 h-8"></div>
-            <div class="react w-8 h-8"></div>
-            <div class="typescript w-8 h-8"></div>
-            <div class="python w-8 h-8"></div>
-            <div class="machinelearning w-8 h-8"></div>
-            <div class="computationalvision w-8 h-8"></div>
-            <div class="database w-8 h-8"></div>
-            <div class="nodejs w-8 h-8"></div>
-          </div>
-          <div class="p-5">
-            <span class="font-semibold">Technologies: </span>
-            <code>
-              HTML5, CSS3, Javascript, Angular, React, Typescript, Python, TensorFlow, SkLearn, Bancos de Dados, NodeJs.
-            </code>
-          </div>
-        </div>
-        <div class="h-full py-10">
-          <div class="block p-5">
+          <div class="col d-flex justify-content-around p-4">
             <div class="block">
-              <code class="text-2xl font-bold"> <> </code>
-              <span class="text-2xl"> Projects </span>
-              <code class="text-2xl font-bold"> <&#47;> </code>
-            </div>
-          </div>
-          <div class="p-5">
-            <div class="block h-1/3">
-              <div class="block">
-                <div class="flex w-full justify-center">
-                  <span class="text-xl font-semibold">SisFeed</span>
-                </div>
-                <div class="">
-                  <span class="font-semibold">Frontend:</span>
-                  <code>React, Tailwind CSS, Typescript</code>
-                </div>
-                <div class="block">
-                  <span class="font-semibold">Backend:</span>
-                  <code>NodeJs, MongoDB</code>
-                </div>
-                <div class="text-justify">
-                  <span class="text-sm text-slate-700"> A project to collect customer feedback using QR-Codes directly on the invoice. Through feedback, it is possible to monitor data on customer satisfaction and organize it in a way that generates knowledge. </span>
-                </div>
+              <div>
+                <span class="fw-bold roboto-mono">Backend Developer</span>
               </div>
-              <div class="w-full pt-2">
-                <img class="project-img" src="logica.jpg" />
-              </div>
-            </div>
-            <div class="block h-1/3 pt-5">
-              <div class="block">
-                <div class="flex w-full justify-center">
-                  <span class="text-xl font-semibold">Salary Provide Case (Machine Learning)</span>
-                </div>
-                <div class="">
-                  <span class="font-semibold">Frontend:</span>
-                  <code>Console/Terminal</code>
-                </div>
-                <div class="block">
-                  <span class="font-semibold">Backend:</span>
-                  <code>Python 3.9, Sklearn, Pandas</code>
-                </div>
-                <div class="text-justify">
-                  <span class="text-sm text-slate-700"> A Machine Learning project to generate a model capable of predicting, according to various data entered for learning, whether a person will earn certain annual salary amounts. </span>
-                </div>
-              </div>
-              <div class="w-full pt-2">
-                <img class="project-img" src="casoganhoml.PNG" />
-              </div>
-            </div>
-            <div class="block h-1/3 pt-5">
-              <div class="block">
-                <div class="flex w-full justify-center">
-                  <span class="text-xl font-semibold">SMIOS IOT</span>
-                </div>
-                <div class="">
-                  <span class="font-semibold">Frontend:</span>
-                  <code>React, Tailwind CSS, Javascript</code>
-                </div>
-                <div class="block">
-                  <span class="font-semibold">Backend:</span>
-                  <code>Other Dev.</code>
-                </div>
-                <div class="text-justify">
-                  <span class="text-sm text-slate-700">A project for maintaining an Internet of Things (I.O.T.) network that performs irrigation and control, direction control of pivots used in agronomy. Flow control, pivot on/off times, information about pumps and data history and more.</span>
-                </div>
-              </div>
-              <div class="w-full pt-2">
-                <img class="project-img" src="smiosiot.jpg" />
+              <div class="fw-light fs-6 text-justify" style="text-align: justify;"> Back-end development means working on server-side software, which focuses on everything you can’t see on a website. Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers. They use code that helps browsers communicate with databases, store, understand, and delete data.</div>
+              <div class="text-center pt-4 fa-xl">
+                <i class="fa-brands fa-node-js"></i>
+                <i class="fa-brands fa-node"></i>
+                <i class="fa-brands fa-python"></i>
+                <i class="fa-solid fa-database"></i>
               </div>
             </div>
           </div>
-        </div>
-        <div class="h-full py-10">
-          <div class="block p-5">
+          <div class="col d-flex justify-content-around p-4">
             <div class="block">
-              <code class="text-2xl font-bold"> <> </code>
-              <span class="text-2xl"> Contact </span>
-              <code class="text-2xl font-bold"> <&#47;> </code>
+              <div>
+                <span class="fw-bold roboto-mono">AI & ML Explorer </span>
+              </div>
+              <div class="fw-light fs-6 text-justify" style="text-align: justify;">artificial intelligence (AI), the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings. The term is frequently applied to the project of developing systems endowed with the intellectual processes characteristic of humans, such as the ability to reason, discover meaning, generalize, or learn from past experience. </div>
+              <div class="text-center pt-4 fa-xl">
+                <i class="fa-solid fa-brain"></i>
+                <i class="fa-solid fa-network-wired"></i>
+                <i class="fa-solid fa-circle-nodes"></i>
+              </div>
             </div>
-            <div class="p-5 text-justify text-slate-500">
-              <span>Don't be shy, I welcome a conversation about the creation of the universe, the existence of unicorn or how to make tires.</span>
+       </div>
+      <!-- Knowlodge columns -->
+      <!-- Social Media  -->
+      <div class="row">
+        <div class="col pt-4 mb-4 d-flex justify-content-center p-2">
+          <div class="block">
+            <div class="d-flex justify-content-center">
+              <span class="fw-bold roboto-mono fs-4 text-center">Socials</span>
             </div>
-            <div class="my-5">
-              <div class="my-2 flex">
-                <a class="flex w-full justify-around py-5 shadow-lg" href="https://www.linkedin.com/in/jonathan-duclos-amado-ferreira-paulo-211a19140/" target="_blank">
-                  <div class="linkedin-icon h-10 w-10"></div>
-                  <div class="flex h-full items-center justify-center">
-                    <span class="text-xl font-bold">Linkedin</span>
-                  </div>
-                </a>
-              </div>
-              <div class="my-2 flex">
-                <a class="flex w-full justify-around py-5 shadow-lg" href="https://github.com/JonathanDuclos" target="_blank">
-                  <div class="github-icon h-10 w-10"></div>
-                  <div class="flex h-full items-center justify-center">
-                    <span class="text-xl font-bold">Github</span>
-                  </div>
-                </a>
-              </div>
-              <div class="my-2 flex">
-                <a class="flex w-full justify-around py-5 shadow-lg" href="https://www.instagram.com/simmookobayashi/" target="_blank">
-                  <div class="instagram-icon h-10 w-10"></div>
-                  <div class="flex h-full items-center justify-center">
-                    <span class="text-xl font-bold">Instagram</span>
-                  </div>
-                </a>
-              </div>
-              <div class="my-2 flex">
-                <a class="flex w-full justify-around py-5 shadow-lg" target="_blank" href=" https://wa.me/5535988944067">
-                  <div class="mail-icon h-10 w-10"></div>
-                  <div class="flex h-full items-center justify-center">
-                    <span class="text-xl font-bold">WhatsApp</span>
-                  </div>
-                </a>
-              </div>
+            <div class="d-flex gap-4 fa-xl pt-2 pb-2">
+              <a href="http://github.com/JonathanDuclos" target="_blank" class="text-dark"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.instagram.com/simmookobayashi/" target="_blank" class="text-dark"><i class="fa-brands fa-square-instagram"></i></i></a>
+              <a href="https://www.facebook.com/jonathan.duclos.1485" target="_blank" class="text-dark"><i class="fa-brands fa-facebook"></i></i></a>
+              <a href="http://t.me/simmookobayashi" target="_blank" class="text-dark"><i class="fa-brands fa-telegram"></i></i></a>
+              <a href="mailto:jonathan.duclos69@gmail.com" target="_blank" class="text-dark"><i class="fa-solid fa-envelope"></i></i></a>
+              <a href="https://x.com/SimmoOkobayashi" target="_blank" class="text-dark"><i class="fa-brands fa-square-x-twitter"></i></a>
             </div>
           </div>
-        </div>
-        <div class="w-full bg-slate-700 py-10">
-          <div class="flex w-full font-mono justify-center text-white">@ Jonathan Duclos - 2021</div>
         </div>
       </div>
+       <!-- Social Media End-->
+      <!-- Footer -->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 roboto-mono fw-light">@2021, Duclos</p>
       
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="px-2 roboto-mono fw-light text-dark">Home</a></li>
+          </ul>
+        </footer>
+      </div>
+      <!-- Footer -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
