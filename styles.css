@@ -6,3 +6,7 @@
 
 a { color: inherit; }
 i { color: inherit; }
+
+.zoom:hover{
+  transform: scale(1.5);
+}
