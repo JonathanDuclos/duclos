@@ -194,7 +194,7 @@ function Index() {
       {/* Fixed HUD */}
       <header className="fixed top-0 left-0 right-0 z-20 flex items-center justify-between px-6 py-5 md:px-12">
         <div className="font-mono text-xs tracking-[0.3em] uppercase text-foreground">
-          RC<span className="text-muted-foreground">/dev</span>
+          duclos<span className="text-muted-foreground">/dev</span>
         </div>
         <nav className="hidden md:flex gap-8 font-mono text-xs tracking-[0.25em] uppercase text-muted-foreground">
           <a href="#about" className="hover:text-foreground transition-colors">Sobre</a>
