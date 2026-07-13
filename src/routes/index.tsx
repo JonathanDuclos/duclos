@@ -247,10 +247,10 @@ function Index() {
             <div className="md:col-span-7 md:col-start-6 space-y-6 text-base md:text-lg leading-relaxed">
               <p>
                 Há oito anos desenho e construo produtos digitais — do primeiro
-                pixel ao último deploy. Trabalho com <span className="text-foreground">TypeScript</span>,
-                <span className="text-foreground"> React + Typescript</span>,{" "}
+                pixel ao último deploy. Trabalho com <span className="text-foreground">JavaScript, TypeScript </span>,
+                <span className="text-foreground">React</span>,{" "}
                 <span className="text-foreground">Node</span> e{" "}
-                <span className="text-foreground">Three.js</span>.
+                <span className="text-foreground">Three.js, Python e várias outras tecnologias...</span>.
               </p>
               <p className="text-muted-foreground">
                 Meu foco é a fricção entre design e engenharia: interfaces que
